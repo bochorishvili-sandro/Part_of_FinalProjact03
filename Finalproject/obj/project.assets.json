@@ -1,0 +1,191 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ATM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ATM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATM.dll": {}
+        }
+      },
+      "Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculator.dll": {}
+        }
+      },
+      "GeorgianTranslator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GeorgianTranslator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeorgianTranslator.dll": {}
+        }
+      },
+      "GuessNnumber/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GuessNnumber.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuessNnumber.dll": {}
+        }
+      },
+      "Hangman/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Hangman.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangman.dll": {}
+        }
+      },
+      "Translator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Translator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Translator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATM/1.0.0": {
+      "type": "project",
+      "path": "../ATM/ATM.csproj",
+      "msbuildProject": "../ATM/ATM.csproj"
+    },
+    "Calculator/1.0.0": {
+      "type": "project",
+      "path": "../Calculator/Calculator.csproj",
+      "msbuildProject": "../Calculator/Calculator.csproj"
+    },
+    "GeorgianTranslator/1.0.0": {
+      "type": "project",
+      "path": "../Georgian_translator/GeorgianTranslator.csproj",
+      "msbuildProject": "../Georgian_translator/GeorgianTranslator.csproj"
+    },
+    "GuessNnumber/1.0.0": {
+      "type": "project",
+      "path": "../GuessNumber and Hangman/GuessNnumber.csproj",
+      "msbuildProject": "../GuessNumber and Hangman/GuessNnumber.csproj"
+    },
+    "Hangman/1.0.0": {
+      "type": "project",
+      "path": "../Hangman/Hangman.csproj",
+      "msbuildProject": "../Hangman/Hangman.csproj"
+    },
+    "Translator/1.0.0": {
+      "type": "project",
+      "path": "../Translator and GeorgianTranslator/Translator.csproj",
+      "msbuildProject": "../Translator and GeorgianTranslator/Translator.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ATM >= 1.0.0",
+      "Calculator >= 1.0.0",
+      "GeorgianTranslator >= 1.0.0",
+      "GuessNnumber >= 1.0.0",
+      "Hangman >= 1.0.0",
+      "Translator >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GIA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\GIA\\Desktop\\just folder\\Finalproject\\Finalproject.csproj",
+      "projectName": "Finalproject",
+      "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\Finalproject\\Finalproject.csproj",
+      "packagesPath": "C:\\Users\\GIA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GIA\\Desktop\\just folder\\Finalproject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\GIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\GIA\\Desktop\\just folder\\ATM\\ATM.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\ATM\\ATM.csproj"
+            },
+            "C:\\Users\\GIA\\Desktop\\just folder\\Calculator\\Calculator.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\Calculator\\Calculator.csproj"
+            },
+            "C:\\Users\\GIA\\Desktop\\just folder\\Georgian_translator\\GeorgianTranslator.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\Georgian_translator\\GeorgianTranslator.csproj"
+            },
+            "C:\\Users\\GIA\\Desktop\\just folder\\GuessNumber and Hangman\\GuessNnumber.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\GuessNumber and Hangman\\GuessNnumber.csproj"
+            },
+            "C:\\Users\\GIA\\Desktop\\just folder\\Hangman\\Hangman.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\Hangman\\Hangman.csproj"
+            },
+            "C:\\Users\\GIA\\Desktop\\just folder\\Translator and GeorgianTranslator\\Translator.csproj": {
+              "projectPath": "C:\\Users\\GIA\\Desktop\\just folder\\Translator and GeorgianTranslator\\Translator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
